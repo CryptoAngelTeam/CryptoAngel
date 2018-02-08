@@ -1,0 +1,13 @@
+<!--
+  ~ Copyright (c) 2017 3Coding Inc.
+  ~ All right, including trade secret rights, reserved.
+  -->
+
+<vector android:autoMirrored="true"
+    android:width="42dp"
+    android:height="42dp"
+    android:viewportHeight="67.0"
+    android:viewportWidth="67.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#598DCA" android:fillType="evenOdd" android:pathData="M50.84,48.14V36.42c0,-6.28 -3.35,-9.19 -7.82,-9.19c-3.6,0 -5.22,1.98 -6.12,3.37V27.71h-6.79c0.09,1.92 0,20.43 0,20.43h6.79V36.73c0,-0.61 0.04,-1.22 0.22,-1.65c0.49,-1.22 1.61,-2.48 3.48,-2.48c2.46,0 3.44,1.87 3.44,4.62v10.93H50.84zM22.96,24.92c2.37,0 3.84,-1.57 3.84,-3.53c-0.04,-2 -1.48,-3.53 -3.8,-3.53s-3.84,1.52 -3.84,3.53c0,1.96 1.47,3.53 3.75,3.53H22.96zM34,64C17.43,64 4,50.57 4,34C4,17.43 17.43,4 34,4s30,13.43 30,30C64,50.57 50.57,64 34,64zM26.35,48.14V27.71h-6.79v20.43H26.35z"/>
+</vector>

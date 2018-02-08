@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (c) 2017 3Coding Inc.
+  ~ All right, including trade secret rights, reserved.
+  -->
+
+<resources>
+    <string name="app_name">CryptoAngel</string>
+    <string name="permission_dialog_title">Permission dialog</string>
+    <string name="permission_dialog_text">Application is using following permissions to provide you the best experience:\n- Microphone. \nPlease enable these permissions by clicking on\nSettings -> Permissions</string>
+    <string name="permission_dialog_action">Settings</string>
+
+    <string name="tap_to_start">"Tap to start..."</string>
+    <string name="listening">"Listening..."</string>
+    <string name="speaking">"Speaking..."</string>
+    <string name="conformation_1">"Yes"</string>
+    <string name="conformation_2">"Yep"</string>
+    <string name="conformation_3">"Right"</string>
+
+    <!-- voice actions -->
+    <string name="about_us">"about you"</string>
+    <string name="introduction_voice">"Hello, I'm crypto angel, your virtual life guide. What is your name?"</string>
+    <string name="name_queton_voice">"What is your name?"</string>
+    <string name="name_conformation_voice">"You said %1$s, Am I right?"</string>
+    <string name="goal_question">"Wow, nice to meet you then. And what is your goal?"</string>
+    <string name="setting_goal">"OK, thank you. Now you will be redirected to our global data store."</string>
+
+    <!-- text strings -->
+    <string name="your_name_text">"What is your name?"</string>
+    <string name="name_conformation_text">"Is your name %1$s?"</string>
+    <string name="your_goal_text">"What is your goal?"</string>
+</resources>

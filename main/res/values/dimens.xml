@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 3Coding Inc.
+  ~ All right, including trade secret rights, reserved.
+  -->
+
+<resources>
+    <dimen name="voice_button_size">136dp</dimen>
+    <dimen name="voice_button_margin_top">175dp</dimen>
+    <dimen name="labels_text_size">26dp</dimen>
+    <dimen name="higher_text_margin_top">10dp</dimen>
+    <dimen name="bottom_text_margin_bottom">25dp</dimen>
+    <dimen name="social_icons_margin_end">10dp</dimen>
+    <dimen name="social_icons_margin_bottom">10dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 3Coding Inc.
+  ~ All right, including trade secret rights, reserved.
+  -->
+
+<resources>
+    <color name="colorPrimary">#1E243A</color>
+    <color name="colorPrimaryDark">#292F4D</color>
+    <color name="colorAccent">#40d7c9</color>
+    <color name="hihglight_color">#228f85</color>
+</resources>

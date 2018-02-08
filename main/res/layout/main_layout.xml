@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2017 3Coding Inc.
+  ~ All right, including trade secret rights, reserved.
+  -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <FrameLayout
+        android:id="@+id/image_base"
+        android:layout_width="@dimen/voice_button_size"
+        android:layout_height="@dimen/voice_button_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/voice_button_margin_top"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/voice_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/circular_image"
+            android:clickable="true"
+            android:src="@drawable/ic_keyboard_voice_black_24dp" />
+
+        <com.a3coding.cryptoangel.VoiceButtonAnimation
+            android:id="@+id/voice_button_animator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/higher_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_base"
+        android:layout_marginTop="@dimen/higher_text_margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/tap_to_start"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/labels_text_size" />
+
+    <TextView
+        android:id="@+id/bottom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/bottom_text_margin_bottom"
+        android:text="@string/listening"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/labels_text_size"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/social_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/social_icons_margin_bottom"
+        android:layout_marginEnd="@dimen/social_icons_margin_end">
+
+        <ImageButton
+            android:id="@+id/facebook_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_image_social"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/ic_facebook_icon" />
+
+        <ImageButton
+            android:id="@+id/twitter_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_image_social"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/ic_twitter_icon" />
+
+        <ImageButton
+            android:id="@+id/linkedin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_image_social"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/ic_linkedin_icon" />
+
+        <ImageButton
+            android:id="@+id/instgram_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_image_social"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/ic_instagram_icon" />
+
+        <ImageButton
+            android:id="@+id/youtube_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_image_social"
+            android:clickable="true"
+            android:duplicateParentState="true"
+            android:src="@drawable/ic_youtube_simple_icon" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

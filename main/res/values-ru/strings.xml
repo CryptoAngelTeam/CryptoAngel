@@ -1,0 +1,31 @@
+<!--
+  ~ Copyright (c) 2017 3Coding Inc.
+  ~ All right, including trade secret rights, reserved.
+  -->
+
+<resources>
+    <string name="app_name">CryptoAngel</string>
+    <string name="permission_dialog_title">Диалог разрешения</string>
+    <string name="permission_dialog_text">Приложение использует следующие разрешения, чтобы предоставить вам лучший опыт:\n- Микрофон. \nВключите эти разрешения, нажав\nHастройки -> Pазрешения</string>
+    <string name="permission_dialog_action">Hастройки</string>
+
+    <string name="tap_to_start">"Нажмите, чтобы начать ..."</string>
+    <string name="listening">"Прослушивание ..."</string>
+    <string name="speaking">"Говорящий..."</string>
+    <string name="conformation_1">"Да"</string>
+    <string name="conformation_2">"Ага"</string>
+    <string name="conformation_3">"Правильно"</string>
+
+    <!-- voice actions -->
+    <string name="about_us">"о тебе"</string>
+    <string name="introduction_voice">"Привет, я крипто ангел, ваш виртуальный гид жизни. Как вас зовут?"</string>
+    <string name="name_queton_voice">"Как вас зовут?"</string>
+    <string name="name_conformation_voice">"Вы сказали %1$s, я прав?"</string>
+    <string name="goal_question">"Приятно познакомиться. И какова ваша цель?"</string>
+    <string name="setting_goal">"Спасибо. Теперь вы будете перенаправлены в наш глобальный хранилище данных."</string>
+    l
+    <!-- text strings -->
+    <string name="your_name_text">"Как вас зовут?"</string>
+    <string name="name_conformation_text">"Ваше имя %1$s?"</string>
+    <string name="your_goal_text">"Какова ваша цель?"</string>
+</resources>
